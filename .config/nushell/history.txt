@@ -1,0 +1,12 @@
+mkdir .config .themes .icons assets
+ls
+ks
+ls
+cd .config/micro/
+ls
+mkdir hypr
+mv  hypr/ .config/
+cd .config/
+s
+ls
+rm -rf hypr

@@ -1,0 +1,67 @@
+window {
+	background-color: #1E1E2E;
+}
+
+#custom-launcher {
+	font-family: "JetBrains Mono Nerd Font Propo";
+	color: #CDD6F4;
+	min-width: 50px;
+	font-size: 23px;
+}
+
+#workspaces button {
+	min-width: 40px;
+	font-size: 10px;
+	min-height: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#wireplumber {
+	min-width: 30px;
+	color: #CDD6F4;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "JetBrains Mono Nerd Font Propo";
+}
+
+#clock {
+	min-width: 30px;
+	color: #CDD6F4;
+	font-size: 14px;
+}
+
+#cpu {
+	min-width: 50px;
+	color: #CDD6F4;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#tray {
+	min-width: 30px;
+	color: #CDD6F4;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#battery {
+	min-width: 30px;
+	font-family: "JetBrains Mono Nerd Font Propo";
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#custom-wlogout {
+	font-family: "JetBrains Mono Nerd Font Propo";
+	min-width: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #f38ba8;
+	font-size: 20px;
+}

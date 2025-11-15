@@ -1,0 +1,92 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin": "4 4 0 4",
+    
+    "modules-left": [
+        "custom/launcher",
+        "hyprland/workspaces"
+    ],
+    
+    "modules-center": [
+		"clock"
+    ],
+    
+    "modules-right": [
+		"cpu",
+		"tray",
+		"wireplumber",
+		"wireplumber#source",
+    	"battery",
+        "custom/wlogout"
+    ],
+    
+    "custom/launcher": {
+        "format": "𐕣",
+        "tooltip": false,
+        "on-click": "fuzzel &"
+    },
+
+    "hyprland/workspaces": {
+    	"format": "{icon}",
+    	"format-icons": {
+    		"active": "",
+    		"default": ""
+    	},
+       "persistent-workspaces": {
+             "*": 5
+       }
+    },
+
+	"clock": {
+		"format": "{:%H:%M:%S}",
+		"tooltip-format": "{:%A %d, %B [%Y]}",
+		"interval": 1
+	},
+
+	"cpu": {
+    	"interval": 10,
+    	"format": "{usage}% ",
+    	"max-length": 10
+	},
+
+	"tray": {
+	    "icon-size": 20,
+	    "spacing": 10
+	},
+
+	"wireplumber": {
+    	"format": "vol {volume}% {icon}",
+    	"format-muted": "",
+    	"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    	"format-icons": ["", "", ""],
+    	"max-volume": 150
+	},
+
+	"wireplumber#source": {
+	    "node-type": "Audio/Source",
+	    "format": "vol {volume}% 󰍬",
+	    "format-muted": "󰍭",
+	    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
+	    "scroll-step": 5
+	},
+	
+	"battery": {
+	    "bat": "BAT0",
+	    "interval": 60,
+	    "states": {
+	        "warning": 30,
+	        "critical": 15
+	    },
+	    "format": "{capacity}% {icon}",
+	    "format-icons": ["", "", "", "", ""],
+	    "max-length": 25
+	},
+	
+	"custom/wlogout": {
+		"format": "󰐥",
+		"tooltip": false,
+		"on-click": "wlogout &"
+	}
+}
