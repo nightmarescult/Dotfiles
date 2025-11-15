@@ -5,9 +5,17 @@
 
 # ℹ️ Installation
 ```sh
-# I assume that the commands are executed on a fresh Arch Linux installation with a standard Linux kernel and Intel iGPU. 
+# I assume that the commands are executed on a fresh Arch Linux 
+# installation with a standard Linux kernel and Intel iGPU. 
 
-sudo pacman -Syu hyprland hyprshot hyprpaper hyprsunset hyprpolkitagent xdg-desktop-portal-hyprland hyprpicker fuzzel waybar firefox cliphist telegram-desktop kvantum amberol vim git curl htop btop gnome-calendar gnome-calculator gnome-weather yazi kitty helix imv mpv nushell uv gobject-introspection gtk-layer-shell gcc llvm lldb clang meson ninja micro fastfetch xdg-user-dirs nwg-look github-cli zsh mesa intel-media-driver vulkan-intel obsidian helix wget curl eza ttf-jetbrains-mono-nerd
+sudo pacman -Syu hyprland hyprshot hyprpaper hyprsunset hyprpolkitagent \
+xdg-desktop-portal-hyprland hyprpicker fuzzel waybar firefox cliphist   \
+telegram-desktop kvantum amberol vim git curl htop btop gnome-calendar  \
+gnome-calculator gnome-weather yazi kitty helix imv mpv nushell uv      \
+gobject-introspection gtk-layer-shell gcc llvm lldb clang meson ninja   \
+micro fastfetch xdg-user-dirs nwg-look github-cli zsh mesa              \
+intel-media-driver vulkan-intel obsidian helix wget curl eza            \
+ttf-jetbrains-mono-nerd
 
 LC_ALL=C xdg-user-dirs-update
 
